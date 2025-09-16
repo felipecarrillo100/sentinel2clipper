@@ -1,0 +1,28 @@
+
+# Ignore all directories
+*/
+
+# But keep files in the root folder
+!/*.*
+
+# Ignore temporary and intermediate files
+*.aux
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore output GeoTIFFs and temporary rasters
+*.tif
+*.vrt
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
