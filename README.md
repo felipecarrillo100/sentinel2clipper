@@ -35,8 +35,8 @@ file.
 -   `/path/to/output_folder` → folder where outputs will be created
 -   `[clip_geojson]` → optional GeoJSON file containing polygons to clip
     against
--   `[clip_where]` → optional filter expression (e.g. `"fid = 2"`) to
-    select one polygon
+-   `[clip_where]` → optional filter expression as a condition applied to properties.attribute (e.g. `"fid = 2"`) to
+    select one polygon with attribute fid equal to string '2'.
 
 ### Example
 
